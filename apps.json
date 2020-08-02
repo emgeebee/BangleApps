@@ -12,6 +12,27 @@
     ],
     "sortorder" : -10
   },
+  { "id": "mats",
+    "name": "Mats",
+    "icon": "icon.png",
+    "version":"0.01",
+    "description": "Mats",
+    "tags": "tool,system",
+    "type":"clock",
+    "storage": [
+      {"name":"mats.app.js","url":"app.js"},
+      {"name":"mats.wid.js","url":"widget.js"},
+      {"name":"mats.img","url":"icon.js","evaluate":true}
+    ],
+    "data": [
+      {"name": "fixtures-villa.json"},
+      {"name": "fixtures-today.json"},
+      {"name": "table.json"},
+      {"name": "weather-chm-w.json"},
+      {"name": "weather-chm-d.json"}
+    ],
+    "sortorder" : -1
+  },
   { "id": "moonphase",
     "name": "Moonphase",
     "icon": "app.png",
